@@ -1,0 +1,39 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-size: cover;
+    background: linear-gradient(180deg, #11352A 0%, rgba(76, 250, 239, 0) 151.81%);
+}
+h1 {
+    font-size: 80px;
+    color: #11A3F4;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+.p-section p {
+    font-size: 36px;
+    text-align: center;
+    color: #0c001f;
+}
+.p-section {
+    height: 425px;
+}
+#start-btn{
+    color: #f40093;
+    background-color: #42FF00;
+    height: 100px;
+    width: 260px;
+    cursor: pointer;
+    font-size: 40px;
+}
+.buttonx{ /* the div that contains the button*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 100px 20px 0 0 ;
+}
