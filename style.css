@@ -5,8 +5,7 @@
 
 }
 body{
-    background-size: cover;
-    background: linear-gradient(180deg, #11352A 0%, rgba(76, 250, 239, 0) 151.81%);
+    background-color: #98EDF9;
 }
 h1 {
     font-size: 80px;
@@ -15,12 +14,12 @@ h1 {
     text-align: center;
     padding: 50px;
 }
-.p-section p {
+.description p {
     font-size: 36px;
     text-align: center;
     color: #0c001f;
 }
-.p-section {
+.description {
     height: 425px;
 }
 #start-btn{
@@ -36,4 +35,40 @@ h1 {
     justify-content: flex-end;
     align-items: flex-end;
     margin: 100px 20px 0 0 ;
+}
+.name-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-section input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    padding-left: 15px;
+}
+.name-section p{
+    font-size: 42px;
+    margin-bottom: 30px;
+
+}
+.name-section button {
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    background-color: #2FC3E3;
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.name-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #D9F3FD;
+    padding: 50px;
+    border-radius: 25px;
+
 }
