@@ -1,0 +1,124 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #98EDF9;
+}
+h1 {
+    font-size: 80px;
+    color: #11A3F4;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+.description p {
+    font-size: 36px;
+    text-align: center;
+    color: #0c001f;
+}
+.description {
+    height: 425px;
+    display: none;
+}
+header{
+    display: none;
+}
+#start-btn{
+    color: #f40093;
+    background-color: #42FF00;
+    height: 100px;
+    width: 260px;
+    cursor: pointer;
+    font-size: 40px;
+}
+.buttonx{ /* the div that contains the button*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 100px 20px 0 0 ;
+}
+.name-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.name-section input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    padding-left: 15px;
+}
+.name-section p{
+    font-size: 42px;
+    margin-bottom: 30px;
+
+}
+.name-section button {
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    background-color: #2FC3E3;
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.name-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #D9F3FD;
+    padding: 50px;
+    border-radius: 25px;
+
+}
+.question-1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.question-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D9F3FD;
+    padding: 50px;
+    border-radius: 25px;
+    width: 600px;
+    height: 400px;
+}
+.answers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 50%;
+    height: 50%;
+}
+.answers input{
+    margin-right: 15px;
+}
+.question-text {
+    font-size: 36px;
+
+}
+.next-btn {
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    background-color: #42FF00;
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+}

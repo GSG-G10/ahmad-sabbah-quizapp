@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Palestine quiz</h1>
+    </header>
+    <section class="description">
+        <p>
+            You’ll find ten questions about Palestine and you have to <br>
+            answer all of them
+            <br>
+            You can see your score in the final page
+        </p>
+        <div class="buttonx">
+            
+            <button id="start-btn"> 
+                Let's Start
+            </button> </div>
+        </section>
+        <section class="name-section">
+            <div class="name-container">
+                <p>
+                    Enter your name to continue
+                </p>
+                <input type="text" id="name-field" placeholder="Type your name here.." > <br>
+                <button id="name-btn">Next</button>
+            </div>
+
+        </section>
+        <section class="questions question-1">
+            <div class="question-container">
+            <p class="question-text">
+                Where does Palestine locate ?  
+            </p>
+            <div class="answers">
+                <label>
+                    <input type="radio" name="oi">Asia </label>
+                <label>
+                    <input type="radio" name="oi">Africa </label>
+                <label>
+                    <input type="radio" name="oi">Euorope </label>
+                <label>
+                    <input type="radio" name="oi">America </label>
+            </div>
+            <button class="next-btn">
+                Next
+            </button>
+            <p class="counter">1/10</p>
+            </div>
+        </section>
+        <script src="./script.js"></script>
+</body>
+</html>
